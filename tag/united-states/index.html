@@ -4,9 +4,10 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="max-image-preview:large">
-<title>404 Not Found &#8211; Just another WordPress site</title>
+<title>United States &#8211; Just another WordPress site</title>
 <link rel="alternate" type="application/rss+xml" title="Just another WordPress site &raquo; Feed" href="/feed/">
 <link rel="alternate" type="application/rss+xml" title="Just another WordPress site &raquo; Comments Feed" href="/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="Just another WordPress site &raquo; United States Tag Feed" href="/tag/united-states/feed/">
 <style>img.wp-smiley,
 img.emoji {
 	display: inline !important;
@@ -196,7 +197,7 @@ img.emoji {
 .wp-block-group {
   box-sizing: border-box;
 }</style>
-<style id="wp-block-post-featured-image-inline-css">/**
+<style id="wp-block-query-title-inline-css">/**
  * Colors
  */
 /**
@@ -272,68 +273,10 @@ img.emoji {
 /**
  * Reset the WP Admin page styles for Gutenberg-like pages.
  */
-.wp-block-post-featured-image {
-  margin-left: 0;
-  margin-right: 0;
-}
-.wp-block-post-featured-image a {
-  display: block;
-}
-.wp-block-post-featured-image img {
-  max-width: 100%;
-  width: 100%;
-  height: auto;
-  vertical-align: bottom;
+.wp-block-query-title {
   box-sizing: border-box;
-}
-.wp-block-post-featured-image.alignwide img, .wp-block-post-featured-image.alignfull img {
-  width: 100%;
-}
-.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim {
-  position: absolute;
-  inset: 0;
-  background-color: #000;
-}
-.wp-block-post-featured-image {
-  position: relative;
-}
-
-.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-gradient {
-  background-color: transparent;
-}
-.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-0 {
-  opacity: 0;
-}
-.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-10 {
-  opacity: 0.1;
-}
-.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-20 {
-  opacity: 0.2;
-}
-.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-30 {
-  opacity: 0.3;
-}
-.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-40 {
-  opacity: 0.4;
-}
-.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-50 {
-  opacity: 0.5;
-}
-.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-60 {
-  opacity: 0.6;
-}
-.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-70 {
-  opacity: 0.7;
-}
-.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-80 {
-  opacity: 0.8;
-}
-.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-90 {
-  opacity: 0.9;
-}
-.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-100 {
-  opacity: 1;
 }</style>
+<link rel="stylesheet" id="wp-block-post-featured-image-css" href="/wp-includes/blocks/post-featured-image/style.css?ver=6.1.1" media="all">
 <style id="wp-block-post-title-inline-css">/**
  * Colors
  */
@@ -422,8 +365,7 @@ img.emoji {
 .wp-block-post-title a:where(:not(.wp-element-button)):hover{text-decoration: underline;}
 .wp-block-post-title a:where(:not(.wp-element-button)):focus{text-decoration: underline dashed;}
 .wp-block-post-title a:where(:not(.wp-element-button)):active{color: var(--wp--preset--color--secondary);text-decoration: none;}</style>
-<style id="wp-block-post-content-inline-css">.wp-block-post-content a:where(:not(.wp-element-button)){color: var(--wp--preset--color--secondary);}</style>
-<style id="wp-block-comments-inline-css">/**
+<style id="wp-block-post-excerpt-inline-css">/**
  * Colors
  */
 /**
@@ -499,116 +441,170 @@ img.emoji {
 /**
  * Reset the WP Admin page styles for Gutenberg-like pages.
  */
-/* Styles for backwards compatibility with the legacy `post-comments` block */
-.wp-block-post-comments {
-  /* utility classes */
-  /* end utility classes */
+.wp-block-post-excerpt__more-link {
+  display: inline-block;
 }
-.wp-block-post-comments .alignleft {
-  float: left;
-}
-.wp-block-post-comments .alignright {
-  float: right;
-}
-.wp-block-post-comments .navigation::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-.wp-block-post-comments .commentlist {
-  clear: both;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-.wp-block-post-comments .commentlist .comment {
-  min-height: 2.25em;
-  padding-left: 3.25em;
-}
-.wp-block-post-comments .commentlist .comment p {
-  font-size: 1em;
-  line-height: 1.8;
-  margin: 1em 0;
-}
-.wp-block-post-comments .commentlist .children {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-.wp-block-post-comments .comment-author {
-  line-height: 1.5;
-}
-.wp-block-post-comments .comment-author .avatar {
-  border-radius: 1.5em;
-  display: block;
-  float: left;
-  height: 2.5em;
-  margin-top: 0.5em;
-  margin-right: 0.75em;
-  width: 2.5em;
-}
-.wp-block-post-comments .comment-author cite {
-  font-style: normal;
-}
-.wp-block-post-comments .comment-meta {
-  font-size: 0.875em;
-  line-height: 1.5;
-}
-.wp-block-post-comments .comment-meta b {
-  font-weight: normal;
-}
-.wp-block-post-comments .comment-meta .comment-awaiting-moderation {
-  margin-top: 1em;
-  margin-bottom: 1em;
-  display: block;
-}
-.wp-block-post-comments .comment-body .commentmetadata {
-  font-size: 0.875em;
-}
-.wp-block-post-comments .comment-form-comment label,
-.wp-block-post-comments .comment-form-author label,
-.wp-block-post-comments .comment-form-email label,
-.wp-block-post-comments .comment-form-url label {
-  display: block;
-  margin-bottom: 0.25em;
-}
-.wp-block-post-comments .comment-form textarea,
-.wp-block-post-comments .comment-form input:not([type=submit]):not([type=checkbox]) {
-  display: block;
+.wp-block-post-excerpt{font-size: var(--wp--preset--font-size--medium);}</style>
+<style id="wp-block-post-date-inline-css">/**
+ * Colors
+ */
+/**
+ * Breakpoints & Media Queries
+ */
+/**
+ * SCSS Variables.
+ *
+ * Please use variables from this sheet to ensure consistency across the UI.
+ * Don't add to this sheet unless you're pretty sure the value will be reused in many places.
+ * For example, don't add rules to this sheet that affect block visuals. It's purely for UI.
+ */
+/**
+ * Colors
+ */
+/**
+ * Fonts & basic variables.
+ */
+/**
+ * Grid System.
+ * https://make.wordpress.org/design/2019/10/31/proposal-a-consistent-spacing-system-for-wordpress/
+ */
+/**
+ * Dimensions.
+ */
+/**
+ * Shadows.
+ */
+/**
+ * Editor widths.
+ */
+/**
+ * Block & Editor UI.
+ */
+/**
+ * Block paddings.
+ */
+/**
+ * React Native specific.
+ * These variables do not appear to be used anywhere else.
+ */
+/**
+*  Converts a hex value into the rgb equivalent.
+*
+* @param {string} hex - the hexadecimal value to convert
+* @return {string} comma separated rgb values
+*/
+/**
+ * Breakpoint mixins
+ */
+/**
+ * Long content fade mixin
+ *
+ * Creates a fading overlay to signify that the content is longer
+ * than the space allows.
+ */
+/**
+ * Focus styles.
+ */
+/**
+ * Applies editor left position to the selector passed as argument
+ */
+/**
+ * Styles that are reused verbatim in a few places
+ */
+/**
+ * Allows users to opt-out of animations via OS-level preferences.
+ */
+/**
+ * Reset default styles for JavaScript UI based pages.
+ * This is a WP-admin agnostic reset
+ */
+/**
+ * Reset the WP Admin page styles for Gutenberg-like pages.
+ */
+.wp-block-post-date {
   box-sizing: border-box;
-  width: 100%;
 }
-.wp-block-post-comments .comment-form-cookies-consent {
-  display: flex;
-  gap: 0.25em;
-}
-.wp-block-post-comments .comment-form-cookies-consent #wp-comment-cookies-consent {
-  margin-top: 0.35em;
-}
-.wp-block-post-comments .comment-reply-title {
-  margin-bottom: 0;
-}
-.wp-block-post-comments .comment-reply-title :where(small) {
-  font-size: var(--wp--preset--font-size--medium, smaller);
-  margin-left: 0.5em;
-}
-.wp-block-post-comments .reply {
-  font-size: 0.875em;
-  margin-bottom: 1.4em;
-}
-.wp-block-post-comments textarea,
-.wp-block-post-comments input:not([type=submit]) {
-  border: 1px solid #949494;
-  font-size: 1em;
-  font-family: inherit;
-}
-.wp-block-post-comments textarea,
-.wp-block-post-comments input:not([type=submit]):not([type=checkbox]) {
-  padding: calc(0.667em + 2px);
-}
-
-:where(.wp-block-post-comments input[type="submit"]) {
-  border: none;
+.wp-block-post-date{font-size: var(--wp--preset--font-size--small);font-weight: 400;}
+.wp-block-post-date a:where(:not(.wp-element-button)){text-decoration: none;}
+.wp-block-post-date a:where(:not(.wp-element-button)):hover{text-decoration: underline;}</style>
+<style id="wp-block-spacer-inline-css">/**
+ * Colors
+ */
+/**
+ * Breakpoints & Media Queries
+ */
+/**
+ * SCSS Variables.
+ *
+ * Please use variables from this sheet to ensure consistency across the UI.
+ * Don't add to this sheet unless you're pretty sure the value will be reused in many places.
+ * For example, don't add rules to this sheet that affect block visuals. It's purely for UI.
+ */
+/**
+ * Colors
+ */
+/**
+ * Fonts & basic variables.
+ */
+/**
+ * Grid System.
+ * https://make.wordpress.org/design/2019/10/31/proposal-a-consistent-spacing-system-for-wordpress/
+ */
+/**
+ * Dimensions.
+ */
+/**
+ * Shadows.
+ */
+/**
+ * Editor widths.
+ */
+/**
+ * Block & Editor UI.
+ */
+/**
+ * Block paddings.
+ */
+/**
+ * React Native specific.
+ * These variables do not appear to be used anywhere else.
+ */
+/**
+*  Converts a hex value into the rgb equivalent.
+*
+* @param {string} hex - the hexadecimal value to convert
+* @return {string} comma separated rgb values
+*/
+/**
+ * Breakpoint mixins
+ */
+/**
+ * Long content fade mixin
+ *
+ * Creates a fading overlay to signify that the content is longer
+ * than the space allows.
+ */
+/**
+ * Focus styles.
+ */
+/**
+ * Applies editor left position to the selector passed as argument
+ */
+/**
+ * Styles that are reused verbatim in a few places
+ */
+/**
+ * Allows users to opt-out of animations via OS-level preferences.
+ */
+/**
+ * Reset default styles for JavaScript UI based pages.
+ * This is a WP-admin agnostic reset
+ */
+/**
+ * Reset the WP Admin page styles for Gutenberg-like pages.
+ */
+.wp-block-spacer {
+  clear: both;
 }</style>
 <style id="wp-block-paragraph-inline-css">/**
  * Colors
@@ -723,6 +719,235 @@ p.has-background {
 :where(p.has-text-color:not(.has-link-color)) a {
   color: inherit;
 }</style>
+<style id="wp-block-post-template-inline-css">/**
+ * Colors
+ */
+/**
+ * Breakpoints & Media Queries
+ */
+/**
+ * SCSS Variables.
+ *
+ * Please use variables from this sheet to ensure consistency across the UI.
+ * Don't add to this sheet unless you're pretty sure the value will be reused in many places.
+ * For example, don't add rules to this sheet that affect block visuals. It's purely for UI.
+ */
+/**
+ * Colors
+ */
+/**
+ * Fonts & basic variables.
+ */
+/**
+ * Grid System.
+ * https://make.wordpress.org/design/2019/10/31/proposal-a-consistent-spacing-system-for-wordpress/
+ */
+/**
+ * Dimensions.
+ */
+/**
+ * Shadows.
+ */
+/**
+ * Editor widths.
+ */
+/**
+ * Block & Editor UI.
+ */
+/**
+ * Block paddings.
+ */
+/**
+ * React Native specific.
+ * These variables do not appear to be used anywhere else.
+ */
+/**
+*  Converts a hex value into the rgb equivalent.
+*
+* @param {string} hex - the hexadecimal value to convert
+* @return {string} comma separated rgb values
+*/
+/**
+ * Breakpoint mixins
+ */
+/**
+ * Long content fade mixin
+ *
+ * Creates a fading overlay to signify that the content is longer
+ * than the space allows.
+ */
+/**
+ * Focus styles.
+ */
+/**
+ * Applies editor left position to the selector passed as argument
+ */
+/**
+ * Styles that are reused verbatim in a few places
+ */
+/**
+ * Allows users to opt-out of animations via OS-level preferences.
+ */
+/**
+ * Reset default styles for JavaScript UI based pages.
+ * This is a WP-admin agnostic reset
+ */
+/**
+ * Reset the WP Admin page styles for Gutenberg-like pages.
+ */
+.wp-block-post-template {
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 100%;
+  list-style: none;
+  padding: 0;
+}
+.wp-block-post-template.wp-block-post-template {
+  background: none;
+}
+.wp-block-post-template.is-flex-container {
+  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25em;
+}
+.wp-block-post-template.is-flex-container li {
+  margin: 0;
+  width: 100%;
+}
+@media (min-width: 600px) {
+  .wp-block-post-template.is-flex-container.is-flex-container.columns-2 > li {
+    width: calc((100% / 2) - 1.25em + (1.25em / 2));
+  }
+  .wp-block-post-template.is-flex-container.is-flex-container.columns-3 > li {
+    width: calc((100% / 3) - 1.25em + (1.25em / 3));
+  }
+  .wp-block-post-template.is-flex-container.is-flex-container.columns-4 > li {
+    width: calc((100% / 4) - 1.25em + (1.25em / 4));
+  }
+  .wp-block-post-template.is-flex-container.is-flex-container.columns-5 > li {
+    width: calc((100% / 5) - 1.25em + (1.25em / 5));
+  }
+  .wp-block-post-template.is-flex-container.is-flex-container.columns-6 > li {
+    width: calc((100% / 6) - 1.25em + (1.25em / 6));
+  }
+}</style>
+<style id="wp-block-query-pagination-inline-css">/**
+ * Colors
+ */
+/**
+ * Breakpoints & Media Queries
+ */
+/**
+ * SCSS Variables.
+ *
+ * Please use variables from this sheet to ensure consistency across the UI.
+ * Don't add to this sheet unless you're pretty sure the value will be reused in many places.
+ * For example, don't add rules to this sheet that affect block visuals. It's purely for UI.
+ */
+/**
+ * Colors
+ */
+/**
+ * Fonts & basic variables.
+ */
+/**
+ * Grid System.
+ * https://make.wordpress.org/design/2019/10/31/proposal-a-consistent-spacing-system-for-wordpress/
+ */
+/**
+ * Dimensions.
+ */
+/**
+ * Shadows.
+ */
+/**
+ * Editor widths.
+ */
+/**
+ * Block & Editor UI.
+ */
+/**
+ * Block paddings.
+ */
+/**
+ * React Native specific.
+ * These variables do not appear to be used anywhere else.
+ */
+/**
+*  Converts a hex value into the rgb equivalent.
+*
+* @param {string} hex - the hexadecimal value to convert
+* @return {string} comma separated rgb values
+*/
+/**
+ * Breakpoint mixins
+ */
+/**
+ * Long content fade mixin
+ *
+ * Creates a fading overlay to signify that the content is longer
+ * than the space allows.
+ */
+/**
+ * Focus styles.
+ */
+/**
+ * Applies editor left position to the selector passed as argument
+ */
+/**
+ * Styles that are reused verbatim in a few places
+ */
+/**
+ * Allows users to opt-out of animations via OS-level preferences.
+ */
+/**
+ * Reset default styles for JavaScript UI based pages.
+ * This is a WP-admin agnostic reset
+ */
+/**
+ * Reset the WP Admin page styles for Gutenberg-like pages.
+ */
+.wp-block-query-pagination > .wp-block-query-pagination-next,
+.wp-block-query-pagination > .wp-block-query-pagination-previous,
+.wp-block-query-pagination > .wp-block-query-pagination-numbers {
+  /*rtl:ignore*/
+  margin-right: 0.5em;
+  margin-bottom: 0.5em;
+}
+.wp-block-query-pagination > .wp-block-query-pagination-next:last-child,
+.wp-block-query-pagination > .wp-block-query-pagination-previous:last-child,
+.wp-block-query-pagination > .wp-block-query-pagination-numbers:last-child {
+  /*rtl:ignore*/
+  margin-right: 0;
+}
+.wp-block-query-pagination.is-content-justification-space-between > .wp-block-query-pagination-next:last-child {
+  margin-inline-start: auto;
+}
+.wp-block-query-pagination.is-content-justification-space-between > .wp-block-query-pagination-previous:first-child {
+  margin-inline-end: auto;
+}
+.wp-block-query-pagination .wp-block-query-pagination-previous-arrow {
+  margin-right: 1ch;
+  display: inline-block;
+}
+.wp-block-query-pagination .wp-block-query-pagination-previous-arrow:not(.is-arrow-chevron) {
+  transform: scaleX(1) /*rtl:scaleX(-1);*/;
+}
+.wp-block-query-pagination .wp-block-query-pagination-next-arrow {
+  margin-left: 1ch;
+  display: inline-block;
+}
+.wp-block-query-pagination .wp-block-query-pagination-next-arrow:not(.is-arrow-chevron) {
+  transform: scaleX(1) /*rtl:scaleX(-1);*/;
+}
+.wp-block-query-pagination.aligncenter {
+  justify-content: center;
+}
+.wp-block-query-pagination{font-size: var(--wp--preset--font-size--small);font-weight: 400;}
+.wp-block-query-pagination a:where(:not(.wp-element-button)){text-decoration: none;}
+.wp-block-query-pagination a:where(:not(.wp-element-button)):hover{text-decoration: underline;}</style>
+<style id="wp-block-query-inline-css">.wp-block-query h2{font-size: var(--wp--preset--font-size--x-large);}</style>
 <link rel="stylesheet" id="wp-block-library-css" href="/wp-includes/css/dist/block-library/common.css?ver=6.1.1" media="all">
 <style id="global-styles-inline-css">body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--base: #ffffff;--wp--preset--color--contrast: #000000;--wp--preset--color--primary: #9DFF20;--wp--preset--color--secondary: #345C00;--wp--preset--color--tertiary: #F6F6F6;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: clamp(0.875rem, 0.875rem + ((1vw - 0.48rem) * 0.24), 1rem);--wp--preset--font-size--medium: clamp(1rem, 1rem + ((1vw - 0.48rem) * 0.24), 1.125rem);--wp--preset--font-size--large: clamp(1.75rem, 1.75rem + ((1vw - 0.48rem) * 0.24), 1.875rem);--wp--preset--font-size--x-large: 2.25rem;--wp--preset--font-size--xx-large: clamp(4rem, 4rem + ((1vw - 0.48rem) * 11.538), 10rem);--wp--preset--font-family--dm-sans: "DM Sans", sans-serif;--wp--preset--font-family--ibm-plex-mono: 'IBM Plex Mono', monospace;--wp--preset--font-family--inter: "Inter", sans-serif;--wp--preset--font-family--system-font: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;--wp--preset--font-family--source-serif-pro: "Source Serif Pro", serif;--wp--preset--spacing--30: clamp(1.5rem, 5vw, 2rem);--wp--preset--spacing--40: clamp(1.8rem, 1.8rem + ((1vw - 0.48rem) * 2.885), 3rem);--wp--preset--spacing--50: clamp(2.5rem, 8vw, 4.5rem);--wp--preset--spacing--60: clamp(3.75rem, 10vw, 7rem);--wp--preset--spacing--70: clamp(5rem, 5.25rem + ((1vw - 0.48rem) * 9.096), 8rem);--wp--preset--spacing--80: clamp(7rem, 14vw, 11rem);}body { margin: 0;--wp--style--global--content-size: 650px;--wp--style--global--wide-size: 1200px; }.wp-site-blocks { padding-top: var(--wp--style--root--padding-top); padding-bottom: var(--wp--style--root--padding-bottom); }.has-global-padding { padding-right: var(--wp--style--root--padding-right); padding-left: var(--wp--style--root--padding-left); }.has-global-padding :where(.has-global-padding) { padding-right: 0; padding-left: 0; }.has-global-padding > .alignfull { margin-right: calc(var(--wp--style--root--padding-right) * -1); margin-left: calc(var(--wp--style--root--padding-left) * -1); }.has-global-padding :where(.has-global-padding) > .alignfull { margin-right: 0; margin-left: 0; }.has-global-padding > .alignfull:where(:not(.has-global-padding)) > :where([class*="wp-block-"]:not(.alignfull):not([class*="__"]),p,h1,h2,h3,h4,h5,h6,ul,ol) { padding-right: var(--wp--style--root--padding-right); padding-left: var(--wp--style--root--padding-left); }.has-global-padding :where(.has-global-padding) > .alignfull:where(:not(.has-global-padding)) > :where([class*="wp-block-"]:not(.alignfull):not([class*="__"]),p,h1,h2,h3,h4,h5,h6,ul,ol) { padding-right: 0; padding-left: 0; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }.wp-site-blocks > * { margin-block-start: 0; margin-block-end: 0; }.wp-site-blocks > * + * { margin-block-start: 1.5rem; }body { --wp--style--block-gap: 1.5rem; }body .is-layout-flow > *{margin-block-start: 0;margin-block-end: 0;}body .is-layout-flow > * + *{margin-block-start: 1.5rem;margin-block-end: 0;}body .is-layout-constrained > *{margin-block-start: 0;margin-block-end: 0;}body .is-layout-constrained > * + *{margin-block-start: 1.5rem;margin-block-end: 0;}body .is-layout-flex{gap: 1.5rem;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body{background-color: var(--wp--preset--color--base);color: var(--wp--preset--color--contrast);font-family: var(--wp--preset--font-family--system-font);font-size: var(--wp--preset--font-size--medium);line-height: 1.6;--wp--style--root--padding-top: var(--wp--preset--spacing--40);--wp--style--root--padding-right: var(--wp--preset--spacing--30);--wp--style--root--padding-bottom: var(--wp--preset--spacing--40);--wp--style--root--padding-left: var(--wp--preset--spacing--30);}a:where(:not(.wp-element-button)){color: var(--wp--preset--color--contrast);text-decoration: underline;}a:where(:not(.wp-element-button)):hover{text-decoration: none;}a:where(:not(.wp-element-button)):focus{text-decoration: underline dashed;}a:where(:not(.wp-element-button)):active{color: var(--wp--preset--color--secondary);text-decoration: none;}h1, h2, h3, h4, h5, h6{font-weight: 400;line-height: 1.4;}h1{font-size: clamp(2.719rem, 2.719rem + ((1vw - 0.48rem) * 1.742), 3.625rem);line-height: 1.2;}h2{font-size: clamp(2.625rem, calc(2.625rem + ((1vw - 0.48rem) * 8.4135)), 3.25rem);line-height: 1.2;}h3{font-size: var(--wp--preset--font-size--x-large);}h4{font-size: var(--wp--preset--font-size--large);}h5{font-size: var(--wp--preset--font-size--medium);font-weight: 700;text-transform: uppercase;}h6{font-size: var(--wp--preset--font-size--medium);text-transform: uppercase;}.wp-element-button, .wp-block-button__link{background-color: var(--wp--preset--color--primary);border-radius: 0;border-width: 0;color: var(--wp--preset--color--contrast);font-family: inherit;font-size: inherit;line-height: inherit;padding: calc(0.667em + 2px) calc(1.333em + 2px);text-decoration: none;}.wp-element-button:visited, .wp-block-button__link:visited{color: var(--wp--preset--color--contrast);}.wp-element-button:hover, .wp-block-button__link:hover{background-color: var(--wp--preset--color--contrast);color: var(--wp--preset--color--base);}.wp-element-button:focus, .wp-block-button__link:focus{background-color: var(--wp--preset--color--contrast);color: var(--wp--preset--color--base);}.wp-element-button:active, .wp-block-button__link:active{background-color: var(--wp--preset--color--secondary);color: var(--wp--preset--color--base);}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-base-color{color: var(--wp--preset--color--base) !important;}.has-contrast-color{color: var(--wp--preset--color--contrast) !important;}.has-primary-color{color: var(--wp--preset--color--primary) !important;}.has-secondary-color{color: var(--wp--preset--color--secondary) !important;}.has-tertiary-color{color: var(--wp--preset--color--tertiary) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-base-background-color{background-color: var(--wp--preset--color--base) !important;}.has-contrast-background-color{background-color: var(--wp--preset--color--contrast) !important;}.has-primary-background-color{background-color: var(--wp--preset--color--primary) !important;}.has-secondary-background-color{background-color: var(--wp--preset--color--secondary) !important;}.has-tertiary-background-color{background-color: var(--wp--preset--color--tertiary) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-base-border-color{border-color: var(--wp--preset--color--base) !important;}.has-contrast-border-color{border-color: var(--wp--preset--color--contrast) !important;}.has-primary-border-color{border-color: var(--wp--preset--color--primary) !important;}.has-secondary-border-color{border-color: var(--wp--preset--color--secondary) !important;}.has-tertiary-border-color{border-color: var(--wp--preset--color--tertiary) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}.has-xx-large-font-size{font-size: var(--wp--preset--font-size--xx-large) !important;}.has-dm-sans-font-family{font-family: var(--wp--preset--font-family--dm-sans) !important;}.has-ibm-plex-mono-font-family{font-family: var(--wp--preset--font-family--ibm-plex-mono) !important;}.has-inter-font-family{font-family: var(--wp--preset--font-family--inter) !important;}.has-system-font-font-family{font-family: var(--wp--preset--font-family--system-font) !important;}.has-source-serif-pro-font-family{font-family: var(--wp--preset--font-family--source-serif-pro) !important;}</style>
 <style id="core-block-supports-inline-css">/**
@@ -732,6 +957,7 @@ p.has-background {
 	justify-content: flex-end;
 }
 .wp-block-group.wp-container-3,
+.wp-block-query-pagination.wp-container-6,
 .wp-block-group.wp-container-9 {
 	justify-content: space-between;
 }</style>
@@ -739,14 +965,10 @@ p.has-background {
 <script src="/wp-includes/blocks/navigation/view.min.js?ver=c24330f635f5cb9d5e0e" id="wp-block-navigation-view-js"></script>
 <script src="/wp-includes/blocks/navigation/view-modal.min.js?ver=45f05135277abf0b0408" id="wp-block-navigation-view-2-js"></script>
 <link rel="https://api.w.org/" href="/wp-json/">
-<link rel="alternate" type="application/json" href="/wp-json/wp/v2/pages/12671">
+<link rel="alternate" type="application/json" href="/wp-json/wp/v2/tags/50">
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd">
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/wp-includes/wlwmanifest.xml">
 <meta name="generator" content="WordPress 6.1.1">
-<link rel="canonical" href="/404-not-found/">
-<link rel="shortlink" href="/?p=12671">
-<link rel="alternate" type="application/json+oembed" href="/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2F404-not-found%2F">
-<link rel="alternate" type="text/xml+oembed" href="/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2F404-not-found%2F&#038;format=xml">
 		<meta name="ssp-url">
 		<meta name="ssp-origin-url" content="aHR0cHM6Ly90ZXN0LnphY2hiZWF1dmFpcy5jb20=">
 
@@ -754,7 +976,7 @@ p.has-background {
 		
 				</head>
 
-<body class="page-template-default page page-id-12671 wp-embed-responsive">
+<body class="archive tag tag-united-states tag-50 wp-embed-responsive">
 
 	<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
 		<defs>
@@ -937,7 +1159,7 @@ p.has-background {
 							<button aria-label="Close menu" data-micromodal-close class="wp-block-navigation__responsive-container-close"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path d="M13 11.8l6.1-6.3-1-1-6.1 6.2-6.1-6.2-1 1 6.1 6.3-6.5 6.7 1 1 6.5-6.6 6.5 6.6 1-1z"></path></svg></button>
 						<div class="wp-block-navigation__responsive-container-content" id="modal-1-content">
 							<ul class="wp-block-page-list">
-<li class="wp-block-pages-list__item current-menu-item wp-block-navigation-item open-on-hover-click"><a class="wp-block-pages-list__item__link wp-block-navigation-item__content" href="/404-not-found/" aria-current="page">404 Not Found</a></li>
+<li class="wp-block-pages-list__item wp-block-navigation-item open-on-hover-click"><a class="wp-block-pages-list__item__link wp-block-navigation-item__content" href="/404-not-found/">404 Not Found</a></li>
 <li class="wp-block-pages-list__item wp-block-navigation-item open-on-hover-click"><a class="wp-block-pages-list__item__link wp-block-navigation-item__content" href="/blog/">blog</a></li>
 <li class="wp-block-pages-list__item wp-block-navigation-item open-on-hover-click"><a class="wp-block-pages-list__item__link wp-block-navigation-item__content" href="/cv/">CV</a></li>
 <li class="wp-block-pages-list__item wp-block-navigation-item open-on-hover-click menu-item-home"><a class="wp-block-pages-list__item__link wp-block-navigation-item__content" href="/">home</a></li>
@@ -954,35 +1176,68 @@ p.has-background {
 </header>
 
 
-<main class="is-layout-flow wp-block-group" style="margin-top:var(--wp--preset--spacing--50)">
+<main class="has-global-padding is-layout-constrained wp-block-group" style="margin-top:var(--wp--preset--spacing--70);margin-bottom:var(--wp--preset--spacing--70)">
+	<h1 style="margin-bottom:var(--wp--preset--spacing--50);" class="alignwide wp-block-query-title">Tag: <span>United States</span>
+</h1>
+
 	
-	<div class="has-global-padding is-layout-constrained wp-block-group">
-		<figure style="margin-bottom:var(--wp--preset--spacing--50);margin-top:calc(-1 * var(--wp--preset--spacing--50));" class="alignwide wp-block-post-featured-image"><img width="2000" height="689" src="/wp-content/uploads/2022/06/photography-6-1024x353-1.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" decoding="async" loading="lazy" srcset="/wp-content/uploads/2022/06/photography-6-1024x353-1.jpg 2000w, /wp-content/uploads/2022/06/photography-6-1024x353-1-300x103.jpg 300w" sizes="(max-width: 2000px) 100vw, 2000px"><span class="wp-block-post-featured-image__overlay has-background-dim has-background-dim-50 has-contrast-background-color" style="" aria-hidden="true"></span></figure>
-		<h1 style="margin-bottom:var(--wp--preset--spacing--40);" class="wp-block-post-title">404 Not Found</h1>
+	<div class="is-layout-flow wp-block-query alignwide">
+		<ul class="is-layout-flow is-flex-container columns-3 alignwide wp-block-post-template">
+<li class="wp-block-post post-444 post type-post status-publish format-standard hentry category-life tag-culture tag-formspring tag-philosophy tag-united-kingdom tag-united-states">
+			
+			<h2 class="wp-block-post-title"><a href="/2010/05/16/is-there-something-that-us-have-and-the-uk-should-havedo-it-too/" target="_self">Is there something that US have and the UK should have/do it too?</a></h2>
+			<div class="wp-block-post-excerpt"><p class="wp-block-post-excerpt__excerpt">I&#8217;m not entirely sure I understand the question. It&#8217;s pretty broad. 
+
+I think the US has things that make it what it is, some of them good, many poor; but a direct one-for-one swap would not—from my perspective—necessarily bring the benefits they might have in the US. There is, for example, a culture of respect for teachers in the US which I would have liked to have experienced here. Students, still, feel the need to listen to and obey teachers.
+
+However, the things about the society which make this possible are myriad, confusing and far from straightforward. A general respect for authority does, seemingly, exist to a greater extent in the US. But the respect can also manifest as fear, as of police. I instinctively felt fearful around police officers in my home town, probably because I was stopped many times as a teenager for no offense. This has not happened since I moved to the UK, and the culture here seems to be one of the police (generally) respecting citizens.
+
+This, however manifests itself in a state which imposes itself in different, less obvious ways, and a culture in education of active disrespect from students of teachers.
+
+These are gross generalisations, but I think my most basic answer is that the differences are complex, and a simple move from one to the other couldn&#8217;t work.
+
+Oh, except coffee&#8230; there is generally better coffee available in the US. Though, US influence has given some roasters here a good foundation for great beans too. </p></div>
+			<div class="wp-block-post-date"><time datetime="2010-05-16T21:42:55+00:00"><a href="/2010/05/16/is-there-something-that-us-have-and-the-uk-should-havedo-it-too/">May 16, 2010</a></time></div>
+
+			
+			<div style="height:var(--wp--preset--spacing--50)" aria-hidden="true" class="wp-block-spacer"></div>
+			
+		</li>
+<li class="wp-block-post post-280 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized tag-united-states">
+			<figure style="width:100%;" class="alignwide wp-block-post-featured-image"><a href="/2009/11/04/how-long-ago-were-the-90s/" target="_self"><img width="2048" height="1371" src="/wp-content/uploads/2009/11/4065636902_ed6569ffec_k.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="How long ago were the &#8217;90s?" decoding="async" loading="lazy" style="height:max(15vw, 30vh);object-fit:cover;" srcset="/wp-content/uploads/2009/11/4065636902_ed6569ffec_k.jpg 2048w, /wp-content/uploads/2009/11/4065636902_ed6569ffec_k-300x201.jpg 300w, /wp-content/uploads/2009/11/4065636902_ed6569ffec_k-1024x686.jpg 1024w, /wp-content/uploads/2009/11/4065636902_ed6569ffec_k-768x514.jpg 768w, /wp-content/uploads/2009/11/4065636902_ed6569ffec_k-1536x1028.jpg 1536w" sizes="(max-width: 2048px) 100vw, 2048px"></a></figure>
+			<h2 class="wp-block-post-title"><a href="/2009/11/04/how-long-ago-were-the-90s/" target="_self">How long ago were the &#8217;90s?</a></h2>
+			<div class="wp-block-post-excerpt"><p class="wp-block-post-excerpt__excerpt">I&#8217;m sat downstairs in my house in Shropshire, sipping Rioja and listening to Green Day and trying to imagine music which more resonates with the decade in which we of Orwell&#8217;s blight came of age. This is the last year of the &#8217;90s being only last decade. Everyone born in the &#8217;70s will soon be [&hellip;] </p></div>
+			<div class="wp-block-post-date"><time datetime="2009-11-04T01:03:09+00:00"><a href="/2009/11/04/how-long-ago-were-the-90s/">November 4, 2009</a></time></div>
+
+			
+			<div style="height:var(--wp--preset--spacing--50)" aria-hidden="true" class="wp-block-spacer"></div>
+			
+		</li>
+<li class="wp-block-post post-377 post type-post status-publish format-standard hentry category-uncategorized tag-food tag-tim-berners-lee tag-twitter tag-united-kingdom tag-united-states tag-web-2-0">
+			
+			<h2 class="wp-block-post-title"><a href="/2009/07/25/uk_gets_we/" target="_self">Democracy and the Web: the UK gets it while America tries to control it.</a></h2>
+			<div class="wp-block-post-excerpt"><p class="wp-block-post-excerpt__excerpt">I read yesterday that twitter has been banned from the White House. In the post, Marshall Kirkpatrick joked that this could be a reason we haven&#8217;t seen much from Obama&#8217;s twitter stream recently. I must admit however, my initial reaction was sympathetic with the White House for pragmatic reasons, though the attitude of the Press [&hellip;] </p></div>
+			<div class="wp-block-post-date"><time datetime="2009-07-25T22:12:42+00:00"><a href="/2009/07/25/uk_gets_we/">July 25, 2009</a></time></div>
+
+			
+			<div style="height:var(--wp--preset--spacing--50)" aria-hidden="true" class="wp-block-spacer"></div>
+			
+		</li>
+<li class="wp-block-post post-199 post type-post status-publish format-standard hentry category-life tag-bbc tag-united-states">
+			
+			<h2 class="wp-block-post-title"><a href="/2008/11/01/its-americas-question-time/" target="_self">It’s America’s Question Time</a></h2>
+			<div class="wp-block-post-excerpt"><p class="wp-block-post-excerpt__excerpt">This morning, after switching on the kettle, I set my laptop on the kitchen surface and shuffled through the BBC iPlayer&#8217;s &#8220;Factual&#8221; category—looking for something interesting to keep me company as I made my porridge and coffee. I stumbled across Question Time, and noticed that this special edition was being broadcast from the United States—something [&hellip;] </p></div>
+			<div class="wp-block-post-date"><time datetime="2008-11-01T13:15:27+00:00"><a href="/2008/11/01/its-americas-question-time/">November 1, 2008</a></time></div>
+
+			
+			<div style="height:var(--wp--preset--spacing--50)" aria-hidden="true" class="wp-block-spacer"></div>
+			
+		</li>
+</ul>
+
+		
 	</div>
 	
-
-	<div class="has-global-padding is-layout-constrained entry-content wp-block-post-content">
-[et_pb_section fb_built=&#8221;1&#8243; admin_label=&#8221;section&#8221; _builder_version=&#8221;4.17.6&#8243; global_colors_info=&#8221;{}&#8221;][et_pb_row _builder_version=&#8221;4.17.6&#8243; _module_preset=&#8221;default&#8221; global_colors_info=&#8221;{}&#8221;][et_pb_column type=&#8221;4_4&#8243; _builder_version=&#8221;4.17.6&#8243; _module_preset=&#8221;default&#8221; global_colors_info=&#8221;{}&#8221;][et_pb_text _builder_version=&#8221;4.17.6&#8243; _module_preset=&#8221;default&#8221; global_colors_info=&#8221;{}&#8221;]<pre>File not found</pre>
-<h2>404</h2>[/et_pb_text][/et_pb_column][/et_pb_row][et_pb_row column_structure=&#8221;3_4,1_4&#8243; _builder_version=&#8221;4.17.6&#8243; _module_preset=&#8221;default&#8221; global_colors_info=&#8221;{}&#8221;][et_pb_column type=&#8221;3_4&#8243; _builder_version=&#8221;4.17.6&#8243; _module_preset=&#8221;default&#8221; global_colors_info=&#8221;{}&#8221;][et_pb_text _builder_version=&#8221;4.17.6&#8243; _module_preset=&#8221;default&#8221; global_colors_info=&#8221;{}&#8221;]<p><i>Sorry, that content doesn&#8217;t seem to exist here. <br></i></p>
-<p><i></i></p>
-<p><a href="/"><i>You can go to my homepage.</i></a></p>
-<p><a href="/blog"><i>You can check out my blog.</i></a></p>
-<p><a href="https://instagram.com/zach_beauvais"><i>I&#8217;m also on Instagram, which might be more interesting anyway.</i></a></p>
-<p><i></i></p>
-<p><i>Cheers,</i></p>
-<p><i>-Z</i></p>
-<p><i></i></p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>[/et_pb_text][/et_pb_column][et_pb_column type=&#8221;1_4&#8243; _builder_version=&#8221;4.17.6&#8243; _module_preset=&#8221;default&#8221; global_colors_info=&#8221;{}&#8221;][et_pb_image src=&#8221;/wp-content/uploads/2022/10/zb_coffee-scaled-1.jpg&#8221; alt=&#8221;Zach Beauvais disappointed that his coffee mug is empty&#8221; title_text=&#8221;zb_coffee&#8221; _builder_version=&#8221;4.17.6&#8243; _module_preset=&#8221;default&#8221; global_colors_info=&#8221;{}&#8221;][/et_pb_image][/et_pb_column][/et_pb_row][/et_pb_section]
-</div>
-	<section class="wp-block-template-part">
-<div class="has-global-padding is-layout-constrained wp-block-group" style="padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)">
-	
-</div>
-
-
-</section>
 </main>
 
 
@@ -1068,6 +1323,6 @@ p.has-background {
 		// Inject the skip link.
 		sibling.parentElement.insertBefore( skipLink, sibling );
 	}() );</script>
-			<span class="ssp-id" style="display:none">12671</span>
+			<span class="ssp-id" style="display:none">444</span>
 		</body>
 </html>
