@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>review &#8211; Just another WordPress site</title>
+	<atom:link href="/tag/review/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description></description>
+	<lastBuildDate>Thu, 15 Dec 2022 15:39:25 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
+	<item>
+		<title>Google&#8217;s 10^100 (how many can you help?)</title>
+		<link>/2008/09/24/google_10to100/</link>
+					<comments>/2008/09/24/google_10to100/#comments</comments>
+		
+		<dc:creator><![CDATA[Zach Beauvais]]></dc:creator>
+		<pubDate>Wed, 24 Sep 2008 20:43:06 +0000</pubDate>
+				<category><![CDATA[Digital]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Perspective]]></category>
+		<category><![CDATA[review]]></category>
+		<guid isPermaLink="false">https://www.zachbeauvais.com/host/?p=165</guid>
+
+					<description><![CDATA[I have begun to see that we may be entering a new age of polymaths, and I&#8217;m happy to be involved in a part of the business world which seems to sustain some of the best brains on the planet. I remember reading about the beginners of industry – the pioneers of technology and science. [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image alignleft"><img decoding="async" src="https://zachbeauvaiscom.files.wordpress.com/2019/11/592fc-202px-fulton.jpg" alt="February 11: Fulton patents steamboat."/><figcaption class="wp-element-caption">Image via Wikipedia</figcaption></figure>
+
+
+
+<p>I have begun to see that we may be entering a new age of polymaths, and I&#8217;m happy to be involved in a part of the business world which seems to sustain some of the best brains on the planet.</p>
+
+
+
+<p>I remember reading about the beginners of industry – the pioneers of technology and science. I remember reading how Robert Fulton came up against problems in life, and simply invented new ways of doing things, leading eventually to the development of steam-powered paddle-wheel-boats. I remember, vaguely, from my propagandistically pro-industrial schooling that as a child, Fulton had invented or improved on the lead pencil, because the one he was using in school wasn&#8217;t up to scratch. The same story is reflected through many of the West&#8217;s inventors of what we&#8217;ve retrospectively come to call the Industrial Revolution: when opportunity or difficulty forced their hands, they changed the situation.</p>
+
+
+
+<p>Now, aside from natural romanticism, I like to look to the past with neither rose-tinted glasses nor &#8220;isn&#8217;t-everything-better-now&#8221; shortsightedness. I&#8217;m sure that for every changer, there were crowds of followers in every age, and I&#8217;m sure many of you could point easily to both an earth-changer and a follower without too much effort. Besides, history pays scant attention to followers.</p>
+
+
+
+<p>No, what I&#8217;m talking about is the seeming ease with which many of my colleagues in the web industry switch between impressively diverse tasks. Some I know make impressive presenters, and happen to hold PhD&#8217;s in fields more or less unrelated to what they do now&#8230; and can code Java and know a bit of CSS on the side. I fear to challenge any to play chess (since I haven&#8217;t played in over 5 years, and have the patience of a twelve-year-old), and several are rumoured to be better-than-average musicians. This diversified excellence, alongside the startups, ideas, enthusiastic organisations and programmes i&#8217;ve seen recently, remind me of the society-changers of a century and more ago. Not since then, I think, has such an importance been placed on ambition within social responsibilities.</p>
+
+
+
+<p>One of the things I&#8217;ve seen most recently has been the Google 10^100 (apparently pronounced: ten to the one-hundredth with a typically geeky need to explain the pun) which aims to &#8220;help as many people as we can&#8221; by contributing $10million to fund earth-changing ideas. Their site is, in classic Google fashion, very straightforward, so I won&#8217;t repeat their blurb&#8230;just go have a read. But, while you are doing it, I dare you to set aside any cynicism you may harbour either toward a big business, or to any notion of &#8220;changing the world&#8221;. Think about what has and is being done, and then think how you could change the world.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2008/09/24/google_10to100/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>WordPress</title>
+		<link>/2008/07/29/wordpress/</link>
+					<comments>/2008/07/29/wordpress/#comments</comments>
+		
+		<dc:creator><![CDATA[Zach Beauvais]]></dc:creator>
+		<pubDate>Tue, 29 Jul 2008 16:14:47 +0000</pubDate>
+				<category><![CDATA[Digital]]></category>
+		<category><![CDATA[review]]></category>
+		<category><![CDATA[Twitter]]></category>
+		<category><![CDATA[WordPress]]></category>
+		<category><![CDATA[World Wide Web]]></category>
+		<guid isPermaLink="false">https://www.zachbeauvais.com/host/?p=147</guid>
+
+					<description><![CDATA[Some of my long-term readers (hi, Mum) might remember that my original blog was a Drupal install, and that my less-than-lovely ISP dropped my connection as I was uploading some new files—therefore borking the CSS. If you don&#8217;t follow, that&#8217;s OK. The point is that my old site was Drupal (a heavy-duty Content Management System, [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image alignleft"><a class="lightview" href="https://zachbeauvaiscom.files.wordpress.com/2019/11/1814a-2596595550_50d53740c8_m.jpg"><img decoding="async" src="https://zachbeauvaiscom.files.wordpress.com/2019/11/1814a-2596595550_50d53740c8_m.jpg" alt="" title="Blog image"/></a></figure>
+
+
+
+<p>Some of my long-term readers (hi, Mum) might remember that my original blog was a Drupal install, and that my less-than-lovely ISP dropped my connection as I was uploading some new files—therefore borking the CSS. If you don&#8217;t follow, that&#8217;s OK. The point is that my old site was Drupal (a heavy-duty Content Management System, which is fantastic) now it&#8217;s WordPress (cause it does blogging, and does it well). Well, WordPress has won my geeky heart (it&#8217;s smaller than my cynical heart, and not as strong as my music heart, but probably the most covered here).</p>
+
+
+
+<p>They have done one thing in the past month which has really, really impressed me. They&#8217;ve got a plugin which lets you upgrade to the latest version of their software (which you install on your webserver yourself) without any complicated, difficult-to-remember steps. This is why I lost Drupal: upgrading, and it killing itself in the transfer. Now, I have the latest WordPress, and I&#8217;m very impressed.</p>
+
+
+
+<p>Its WYSIWYG editor works better, and the media manager is fantastic. As you probably know, I stopped using a local blogging client because ecto is rubbish, and Vista is worse. So I now blog from WordPress itself through Firefox on my Mac. Three things that make me happy: WordPress on Firefox running on a Mac&#8230; ah!</p>
+
+
+
+<p>Another thing which is brilliant is the flickr sidebar plugin I have had for ages. I completely forgot to check out its &#8220;view more photos&#8221; link. It automatically finds images from the sets I&#8217;ve told it about, and uses them to create a page on my site populated with my flickr stream images!</p>
+
+
+
+<p>On a down side, I&#8217;ve just noticed that it&#8217;s impossible to see the bottom of the sidebar if Twitter is down, because I have my tweets (micro-blog messages) being pulled into a widget above it, so if it&#8217;s down, it doesn&#8217;t load the rest of the sidebar. I think that&#8217;s something WordPress should sort out. Oh, well. I&#8217;m just going to switch my images tab over to flickr.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2008/07/29/wordpress/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
